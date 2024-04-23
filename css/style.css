@@ -39,12 +39,12 @@ header{
 
 /* box pulsanti */
 #box{
-    padding: 15px;
     border-bottom: 4px solid #f7f8fb;
 }
 
 .contain{
     margin: 0 40px;
+    padding: 15px;
 }
 
 /* proprietà pulsanti */
@@ -68,7 +68,58 @@ header{
 
 }
 
+/* proprietà della sezione dei task */
 
+section{
+    font-size: 15px;
+}
+
+span{
+    padding: 0 2px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.arrow:before{
+    content: '\2BC6';
+    font-size: 20px;
+}
+
+.task-title{
+    padding: 6px 0;
+}
+
+.task-contain{
+    margin-top: 20px;
+}
+
+/* check, cross e contenuto dei task */
+
+.cross:before{
+    content: '\2BBF';
+    font-size: 20px;
+    color: red;
+}
+
+.text-task{
+    font-size: 15px;
+}
+
+.label{
+    width: 100px;
+    height: 60px;
+    padding: 6px 8px;
+    font-size: 12px;
+    color: white;
+    border-radius: 20px;
+}
+
+#editorial{
+    background-color: #66aaed;
+}
 
 
 

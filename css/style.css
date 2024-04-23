@@ -31,12 +31,16 @@ header{
 }
 
 /* proprietà del container bianco centrale */
+
+#white-box{
+    margin: 40px;
+}
+
 #container{
-    margin:auto;
+    margin: auto;
     width: 70%;
-    height: 600px;
+    height: auto;
     background-color:white;
-    margin-top: 40px;
     border-radius: 5px;
 }
 
@@ -47,7 +51,7 @@ header{
 
 .contain{
     margin: 0 50px;
-    padding: 8px 0;
+    padding: 10px;
 }
 
 /* proprietà pulsanti */

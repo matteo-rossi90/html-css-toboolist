@@ -9,6 +9,7 @@ body{
     background-color: #f7f8fb;
 }
 
+/* proprietà dell'header */
 header{
     background-color: white;
     height: 80px;
@@ -25,6 +26,49 @@ header{
     display:inline-block;
     margin: 10px;
 }
+
+/* proprietà del container bianco centrale */
+#container{
+    margin:auto;
+    width: 70%;
+    height: 500px;
+    background-color:white;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+/* box pulsanti */
+#box{
+    padding: 15px;
+    border-bottom: 4px solid #f7f8fb;
+}
+
+.contain{
+    margin: 0 40px;
+}
+
+/* proprietà pulsanti */
+.btn-prop{
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#add-task{
+    background-color:#66aaed;
+    border: none;
+    color: white;
+}
+
+#add-section {
+    background-color: transparent;
+    border: 1px solid #bdbec3;
+    color: #bdbec3;
+
+}
+
+
 
 
 

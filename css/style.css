@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', Courier, monospace;
+}
+
+body{
+    background-color: #f7f8fb;
+}
+
+header{
+    background-color: white;
+    height: 80px;
+}
+
+#text-logo{
+    height: 100px;
+    vertical-align:middle;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#logo, #text-logo{
+    display:inline-block;
+    margin: 10px;
+}
+
+
+
+

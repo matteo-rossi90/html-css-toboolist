@@ -22,16 +22,19 @@ header{
     font-weight: bold;
 }
 
+
+
+
 #logo, #text-logo{
     display:inline-block;
-    margin: 10px;
+    margin: 10px 15px;
 }
 
 /* proprietà del container bianco centrale */
 #container{
     margin:auto;
     width: 70%;
-    height: 500px;
+    height: 600px;
     background-color:white;
     margin-top: 40px;
     border-radius: 5px;
@@ -43,8 +46,8 @@ header{
 }
 
 .contain{
-    margin: 0 40px;
-    padding: 15px;
+    margin: 0 50px;
+    padding: 8px 0;
 }
 
 /* proprietà pulsanti */
@@ -93,19 +96,29 @@ span{
 }
 
 .task-contain{
-    margin-top: 20px;
+    padding: 15px 0;
 }
 
 /* check, cross e contenuto dei task */
 
 .cross:before{
-    content: '\2BBF';
+    content: '\2715';
     font-size: 20px;
     color: red;
 }
 
+.check:before{
+    content: '\2714';
+    font-size: 20px;
+    color: rgb(0, 249, 0);
+}
+
 .text-task{
     font-size: 15px;
+}
+
+.task{
+    padding: 5px 0;
 }
 
 .label{
@@ -119,6 +132,26 @@ span{
 
 #editorial{
     background-color: #66aaed;
+}
+
+#goals{
+    background-color:#9676df;
+}
+
+#recruiting {
+    background-color: #7bbcaa;
+}
+
+#mobile {
+    background-color: #e7a04e;
+}
+
+#website{
+    background-color: #cb6a9e;
+}
+
+#sales{
+    background-color: #b4c74e;
 }
 
 

@@ -105,15 +105,33 @@ span{
 
 /* check, cross e contenuto dei task */
 
+.circle-right{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:transparent;
+    border: 1px solid rgb(0, 249, 0);
+    display: inline-block
+}
+
+.circle-wrong {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid red;
+    display: inline-block
+}
+
 .cross:before{
     content: '\2715';
-    font-size: 20px;
+    font-size: 10px;
     color: red;
 }
 
 .check:before{
     content: '\2714';
-    font-size: 20px;
+    font-size: 10px;
     color: rgb(0, 249, 0);
 }
 

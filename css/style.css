@@ -152,27 +152,27 @@ span{
     border-radius: 20px;
 }
 
-#editorial{
+.editorial{
     background-color: #66aaed;
 }
 
-#goals{
+.goals{
     background-color:#9676df;
 }
 
-#recruiting {
+.recruiting {
     background-color: #7bbcaa;
 }
 
-#mobile {
+.mobile {
     background-color: #e7a04e;
 }
 
-#website{
+.website{
     background-color: #cb6a9e;
 }
 
-#sales{
+.sales{
     background-color: #b4c74e;
 }
 
